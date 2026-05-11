@@ -1,0 +1,39 @@
+# Virtual environments
+backend_env/
+ui_env/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Deployment / build
+dist/
+build/
+*.egg-info/
+
+# Local configuration
+.env.local
+.streamlit/secrets.toml
+
+.streamlit/
